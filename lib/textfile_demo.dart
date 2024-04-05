@@ -11,7 +11,8 @@ class _TextFileDemoState extends State<TextFileDemo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:Text('megha',textAlign: TextAlign.center , style: TextStyle(color: Colors.white)) ,
+      appBar: AppBar(),
+      body:Text('megha',textAlign: TextAlign.center , style: TextStyle(color: Colors.white,fontSize: 30,fontWeight: FontWeight.bold)) ,
     );
   }
 }
